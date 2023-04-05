@@ -1,5 +1,12 @@
 {
-  "version": 2,
-  "builds": [{"src": "*.js", "use": "@now/node"}],
-  "routes": [{"src": "/(.*)", "dest": "api.js"}]
+  "builds": [
+    { "src": "api.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/api.js" }
+  ],
+  "env": {
+    "MONGODB_URI": "<your-mongodb-uri>",
+    "MONGODB_DB_NAME": "clearfashion"
+  }
 }
