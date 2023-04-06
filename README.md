@@ -11,7 +11,6 @@ An E-commerce application :
 - using a home-made APi scraping data thanks to a Mongo DataBase and a NodeJS environment 
 - developed by creating a vite project that use a react framework
 - deployed by a vercel server. 
-<br />
 
 ## 👕 Results 
 url of the api : https://clear-fashion-dynm.vercel.app/ <br />
