@@ -15,4 +15,6 @@ An E-commerce application :
 ## 👕 Results 
 url of the api : https://clear-fashion-dynm.vercel.app/ <br />
 url of the app : https://clear-fashion-rbjclient-i7gsq0mo1-rayanebdj.vercel.app/
+<br />
+(To reuse the code, you will have to specify your own mongoDB to store the scraped data and eventually modify the package.json)
 
